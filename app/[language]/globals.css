@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 11, 37, 60;
+  --background-start-rgb: 11, 37, 60;
+  --background-end-rgb: 11, 37, 60;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 11, 37, 60;
+    --background-start-rgb: 11, 37, 60;
+    --background-end-rgb: 11, 37, 60;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.space-around {
+  justify-content: space-between;
+}
+.color-white {
+  color: white;
+}
+.bg {
+  background-color: #0b253c;
+}
+
+.ARArticle {
+  text-align: right;
+}
+
+.ARHeader {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.ENHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.pagination ul {
+  display: flex;
+}
+.pagination ul li button {
+  width: 30px;
+}
+.pagination ul li:first-child button {
+  width: 90px;
+}
+.pagination ul li:last-child button {
+  width: 90px;
+}
+.blogs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.blogs {
+  position: relative;
+  width: 40%;
+  margin: 1.5rem 1rem;
+  opacity: 0.7;
+  background-color: white;
+  transition: opacity 0.3s ease;
+  padding-bottom: 1.5rem;
+}
+.blogs:hover {
+  opacity: 1;
+}
