@@ -29,7 +29,7 @@ const SearchBar = ({ language }: { language: language }) => {
       type="text"
       value={searchTerm}
       onChange={(e) => handleSearch(e.target.value)}
-      placeholder={language === "en" ? "Search" : "ابحث"}
+      placeholder={language === "en" ? "Search by title" : "ابحث بالعنوان"}
       className="p-1.5 border border-gray-300 rounded text-black my-auto h-fit-content"
     />
   );
