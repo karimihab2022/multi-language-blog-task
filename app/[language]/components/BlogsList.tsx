@@ -12,27 +12,30 @@ const BlogsList = ({
   return (
     <div className="blogs-container">
       {blogs.map((blog) => (
-        <Link
-          href={`${language}/BlogDetails/${blog.id}`}
-          passHref
+        <div
           className="blogs"
+          style={{
+            backgroundImage: `url("${blog.thumbnail})`,
+          }}
         >
-          <div key={blog.id}>
-            <div className={language === "en" ? "p-6" : "ARArticle p-6"}>
-              <div className={language === "en" ? "ENHeader" : "ARHeader"}>
-                <h2 className="font-bold text-3xl mb-2 text-gray-800">
-                  {blog.title}
-                </h2>
-                <div>
-                  <span className="inline-block rounded-full px-3 py-1 text-m font-semibold text-white bg ">
-                    {blog.category}
-                  </span>
+          <Link href={`${language}/BlogDetails/${blog.id}`} passHref>
+            <div key={blog.id}>
+              <div className={language === "en" ? "p-6" : "ARArticle p-6"}>
+                <div className={language === "en" ? "ENHeader" : "ARHeader"}>
+                  <h2 className="font-bold text-3xl mb-2 text-white">
+                    {blog.title}
+                  </h2>
+                  <div>
+                    <span className="inline-block rounded-full px-3 py-1 text-m font-semibold text-white bg ">
+                      {blog.category}
+                    </span>
+                  </div>
                 </div>
+                <p className="text-white text-xl">{blog.data}</p>
               </div>
-              <p className="text-gray-700 text-xl">{blog.data}</p>
             </div>
-          </div>
-        </Link>
+          </Link>
+        </div>
       ))}
     </div>
   );

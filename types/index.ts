@@ -5,6 +5,7 @@ export interface Blog {
   title: string;
   data: string;
   category: string;
+  thumbnail: string;
   details: string;
 }
 

@@ -4,6 +4,7 @@
     "title": "Introduction to JavaScript",
     "data": "JavaScript is a programming language commonly used in web development. It allows for interactive and dynamic content on websites.",
     "category": "Programming",
+    "thumbnail": "https://images.unsplash.com/photo-1632882765546-1ee75f53becb?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "details": "JavaScript was created by Brendan Eich while he was working at Netscape Communications Corporation. It was first released in 1995 and has since become one of the most popular programming languages in the world. JavaScript is primarily used for client-side web development, but it can also be used for server-side development (Node.js) and mobile app development (React Native)."
   },
   {
@@ -11,6 +12,7 @@
     "title": "HTML Basics",
     "data": "HTML (HyperText Markup Language) is the standard markup language for creating web pages. It provides the structure and content of a webpage.",
     "category": "Web Development",
+    "thumbnail": "https://images.unsplash.com/photo-1621839673705-6617adf9e890?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "details": "HTML was created by Tim Berners-Lee in 1991 as a way to share documents electronically. It is the foundation of the World Wide Web and is used to create the structure of web pages. HTML consists of a series of elements, each represented by a pair of tags, which define the structure and content of the page."
   },
   {
@@ -18,6 +20,7 @@
     "title": "CSS Styling",
     "data": "CSS (Cascading Style Sheets) is used for styling HTML elements. It allows for customizing the appearance and layout of a webpage.",
     "category": "Web Design",
+    "thumbnail": "https://images.unsplash.com/photo-1526925539332-aa3b66e35444?q=80&w=3330&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "details": "CSS was proposed by Håkon Wium Lie in 1994 and has since become an essential part of web design. It allows developers to separate the content of a webpage from its presentation, making it easier to maintain and update. CSS provides a wide range of styling options, including colors, fonts, margins, and animations."
   },
   {
@@ -25,6 +28,7 @@
     "title": "React.js Fundamentals",
     "data": "React.js is a JavaScript library for building user interfaces. It enables the creation of reusable UI components.",
     "category": "Frontend Development",
+    "thumbnail": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "details": "React.js was developed by Facebook and released as an open-source project in 2013. It is often used for building single-page applications and is known for its component-based architecture and virtual DOM. React allows developers to create reusable UI components, which can be composed together to build complex user interfaces."
   },
   {
@@ -32,6 +36,7 @@
     "title": "Node.js Basics",
     "data": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows for server-side scripting and networking applications.",
     "category": "Backend Development",
+    "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "details": "Node.js was created by Ryan Dahl in 2009 and is designed for building scalable network applications. It uses an event-driven, non-blocking I/O model, which makes it lightweight and efficient. Node.js is commonly used for building web servers, API servers, and real-time applications."
   },
   {
@@ -39,6 +44,7 @@
     "title": "Introduction to Data Structures",
     "data": "Data structures are ways to organize and store data in a computer. They are essential for efficient data manipulation and storage.",
     "category": "Programming",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1661878265739-da90bc1af051?q=80&w=3372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "details": "Data structures are fundamental concepts in computer science and are used to organize and manipulate data efficiently. Common data structures include arrays, linked lists, stacks, queues, trees, and graphs. Each data structure has its own advantages and use cases, and understanding them is essential for writing efficient algorithms and programs."
   },
   {
@@ -46,6 +52,7 @@
     "title": "Introduction to Algorithms",
     "data": "Algorithms are step-by-step procedures for solving problems. They are fundamental in computer science and programming.",
     "category": "Programming",
+    "thumbnail": "https://images.unsplash.com/photo-1590959651373-a3db0f38a961?q=80&w=3439&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "details": "Algorithms are sets of instructions or rules that describe how to solve a particular problem or perform a particular task. They are used in various applications, from sorting and searching to machine learning and cryptography. Understanding algorithms is essential for writing efficient code and solving complex problems."
   },
   {
@@ -53,6 +60,7 @@
     "title": "Python Basics",
     "data": "Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in various domains such as web development, data science, and artificial intelligence.",
     "category": "Programming",
+    "thumbnail": "https://images.unsplash.com/photo-1594904351111-a072f80b1a71?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "details": "Python was created by Guido van Rossum and first released in 1991. It is designed to be easy to read and write, with clear and concise syntax. Python is often used for web development, data analysis, scientific computing, artificial intelligence, and machine learning. It has a large and active community of developers and a rich ecosystem of libraries and frameworks."
   },
   {
@@ -60,6 +68,7 @@
     "title": "Machine Learning Concepts",
     "data": "Machine learning is a subset of artificial intelligence that focuses on enabling computers to learn from data and improve over time without explicit programming.",
     "category": "Artificial Intelligence",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1661963435646-73b565fb724c?q=80&w=3287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "details": "Machine learning is a branch of artificial intelligence that focuses on developing algorithms that can learn from and make predictions or decisions based on data. It is used in various applications, including image recognition, natural language processing, recommendation systems, and autonomous vehicles. Machine learning algorithms can improve their performance over time by learning from new data."
   },
   {
@@ -67,6 +76,7 @@
     "title": "Introduction to Databases",
     "data": "Databases are systems for storing, managing, and retrieving data. They are crucial for applications that require persistent data storage.",
     "category": "Database Management",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1661835495814-f07d70f2a71e?q=80&w=3424&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "details": "Databases are systems designed to store, manage, and retrieve data efficiently. They are essential for applications that need to store large amounts of structured data and retrieve it quickly. Databases come in various types, including relational databases (such as MySQL, PostgreSQL), NoSQL databases (such as MongoDB, Cassandra), and in-memory databases (such as Redis). Understanding databases is crucial for building scalable and reliable applications."
   }
 ]
